@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href = "estilos/estilo-form.css" >
+    <title>Formulario del Producto</title>
+</head>
+<body>
+    <h1>PRODUCTO EN VENTA.</h1>
+    <fieldset>
+        <legend>DATOS DEL PRODUCTO</legend>
+        <form method="post" action="article.php" enctype ="multipart/form-data" class="form">
+            <div class="content-form">
+                <p>Nombre:</p> <input type="text" name="nombre" placeholder="Nombre del producto" />
+                <p>Descripción:</p> <input type="text" name="descripcion" placeholder="Añade una descripción" />
+                <p>Agregue una foto:</p> <input type="file" name="producto"  accept="image/png, .jpeg, .jpg, image/gif" required />
+                <p>Precio del producto:</p> <input type="number" name="precio" />
+                <input type="submit" name="enviar" value="Enviar" class="enviar"/>
+            </div>
+        </form>
+    </fieldset>
+</body>
+</html>
