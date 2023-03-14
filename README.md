@@ -1,3 +1,3 @@
 # proyecto-article
 
-https://generadorarticle.000webhostapp.com/
+https://article-project.000webhostapp.com/
